@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    font-family: inter;
+    font-size: 12px;
+}
+
+header{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 8px;
+}
+
+nav li{
+    display: block;
+}
+
+button{
+padding: 16px 20px;
+font-family: inter;
+border: none;
+border-radius: 12px;
+column-gap: 20px;
+}
+
+.pry-btn{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+}
+ 
+.sec-btn{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+section > main {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1fr 1fr;
+    
+}
+
+.hero-left{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.hero-right{
+    grid-column-start: 7;
+    grid-column-end: 13;
+}
+
+.btn-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 24px;
+    align-items: center;
+    column-gap: 8px;
+    padding: 8px 12px;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 32px;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 32px;
+}
+
+section.heros{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: calc(1fr 1fr);
+    background-color: #171717; 
+    color: #ffffff;
+}
+
+.horo{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.port{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+
+
+.box{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bo{
+    padding: 20px;
+    display: flex;
+    flex-direction: flex-start;
+}
+
+.hello{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.hollo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+    padding: 32px;
+}
+
+.logic{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    background-color: #171717;
+    color: #ffffff;
+}
+
+.lolo{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lo{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 38px;
+}
+
+.pop{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 38px;
+}
